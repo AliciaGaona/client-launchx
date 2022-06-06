@@ -1,3 +1,8 @@
+__Comando para correo cliente con vue__
+
+npm run serve
+
+
 # vue-3-crud
 
 ## Project setup
