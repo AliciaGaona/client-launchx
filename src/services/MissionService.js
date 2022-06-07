@@ -17,3 +17,5 @@ class MissionService{
         return http.delete(`/missionCommander/${id}`);
       }
 }
+
+export default new MissionService();
