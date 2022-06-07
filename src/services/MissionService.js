@@ -13,4 +13,7 @@ class MissionService{
       updateMission(id, data) {
         return http.put(`/missionCommander/${id}`, data);
       }
+      deleteMission(id) {
+        return http.delete(`/missionCommander/${id}`);
+      }
 }
