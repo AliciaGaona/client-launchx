@@ -5,6 +5,13 @@ npm run serve
 
 [Dpcumentación vue](https://vuejs.org/guide/essentials/template-syntax.html)
 
+---
+
+[List Rendering](https://vuejs.org/guide/essentials/list.html)
+```
+class="list row"
+```
+
 # vue-3-crud
 
 ## Project setup
