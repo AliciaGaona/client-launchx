@@ -6,3 +6,9 @@
         </ul>
     </div>
 </template>
+
+<script>
+import MissionService from "../services/MissionService";
+
+
+</script>
