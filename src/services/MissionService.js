@@ -7,5 +7,7 @@ class MissionService{
       getMission(id) {
         return http.get(`/missionCommander/${id}`);
       }
-     
+      createMission(data) {
+        return http.post("/missionCommander", data);
+      }
 }
