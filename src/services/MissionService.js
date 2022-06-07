@@ -1,10 +1,10 @@
 import http from "../http-common";
 
 class MissionService{
-    getAll() {
+    getAllMission() {
         return http.get("/missionCommander");
       }
-      get(id) {
+      getMission(id) {
         return http.get(`/missionCommander/${id}`);
       }
      
