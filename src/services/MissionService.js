@@ -10,4 +10,7 @@ class MissionService{
       createMission(data) {
         return http.post("/missionCommander", data);
       }
+      updateMission(id, data) {
+        return http.put(`/missionCommander/${id}`, data);
+      }
 }
