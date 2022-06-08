@@ -1,13 +1,25 @@
-Instrucciones:
+Instrucciones ultima actividad semana 5:
 
-Crea la tabla nueva anterior. Agrega unos registros por medio de los seeds.
-Crea un CRUD expuesto en un API en el server.js (métodos GET, POST, PUT, DELETE, recuerda que el método GET deberá tener 2 endpoints, uno para traer todos los registros y otro para consultar solo el registro por ID).
-En la pantalla inicial del front, consulta todos los registros en esta tabla y muéstralos. Tú decides el diseño.
-Agrega la posibilidad de agregar uno nuevo.
-Agrega la posibilidad de editar el mainStack.
-Agrega la posibilidad de eliminar el registro.
+- Crea la tabla nueva anterior. Agrega unos registros por medio de los seeds.
+
+- Crea un CRUD expuesto en un API en el server.js (métodos GET, POST, PUT, DELETE, recuerda que el método GET deberá tener 2 endpoints, uno para traer todos los registros y otro para consultar solo el registro por ID).
+
+- En la pantalla inicial del front, consulta todos los registros en esta tabla y muéstralos. Tú decides el diseño.
+
+- Agrega la posibilidad de agregar uno nuevo.
+
+- Agrega la posibilidad de editar el mainStack.
+
+- Agrega la posibilidad de eliminar el registro.
 
 
+__FALTA:__
+
+Realiza un diagrama de cómo funciona este proyecto de Vue JS, incluye cómo funciona el router.js, los templates, los services y los componentes.
+
+Este diagrama te servirá más adelante para comenzar a agregar nuevos features en este proyecto. Esta actividad tiene por propósito leer una app legada de frontend.
+
+Incluye estos diagramas en tu fork.
 
 __Comando para correo cliente con vue__
 
