@@ -2,7 +2,14 @@
     <div class="list row">
         <h4> Mission Comander</h4>z
         <ul class="list-group">
-           
+           <li class="list-group-item"
+          :class="{ active: index == currentIndex }"
+          v-for="(mission, index) in missions"
+          :key="index"
+          
+        >
+          {{ mission.name }}
+        </li>
         </ul>
     </div>
 </template>
@@ -15,7 +22,8 @@ export default{
      data() {
     return {
    
-      mission: []
+    mission: [],
+    currentMission: null
      
     };
   },
