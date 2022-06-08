@@ -16,9 +16,10 @@ const routes =  [
     name: "add-explorer",
     component: () => import("./components/AddExplorer")
   }, 
-  {
-    path: "/addMissionCommander",
-    name: "add-missionCommander",
+  {   
+    path: "/",
+    alias: "/missionCommanderList",
+    name: "missionCommanderList",
     component: ()=> import("./components/MissionList")
   }
 ];

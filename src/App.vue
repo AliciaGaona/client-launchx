@@ -10,7 +10,7 @@
           <router-link to="/add" class="nav-link">Agregar Explorer</router-link>
         </li>
           <li class="nav-item">
-          <router-link to="/addMissionCommander" class="nav-link">Mission Comander</router-link>
+          <router-link to="/missionCommanderList" class="nav-link">Mission Comander</router-link>
         </li>
       </div>
     </nav>

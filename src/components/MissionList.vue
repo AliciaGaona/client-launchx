@@ -10,5 +10,25 @@
 <script>
 import MissionService from "../services/MissionService";
 
-
+export default{
+    name: "missionC-list",
+     data() {
+    return {
+   
+      mission: []
+     
+    };
+  },
+    methods: {
+    getAllMission(){
+         MissionService.getAllMission()
+        .then(response => {
+          this.mission = response.data;
+        })
+        .catch(e => {
+          console.log(e);
+        });
+    }
+} 
+}
 </script>
