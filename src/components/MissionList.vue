@@ -37,6 +37,10 @@ export default{
           console.log(e);
         });
     }
-} 
+} ,
+
+mounted() {
+    this.getAllMission();
+  }
 }
 </script>
